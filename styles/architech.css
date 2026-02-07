@@ -198,6 +198,25 @@ main> section{
     line-height: 26px;
 }
 
+/* sponsor section starts here */
+.sponsor-heading{
+    text-align: center;
+   
+    max-width: 540px;
+    margin: 50px auto;
+
+}
+.sponsor-img-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+    
+}
+
+.sponsor-img-container img{
+    filter: grayscale(100%);
+}
+
 /* span design are here */
 
 #quick-list{
@@ -229,13 +248,17 @@ main> section{
         flex-direction: column;
     }
 
-    .image-container,.facts-container{
+    .image-container,.facts-container,.sponsor-img-container{
         grid-template-columns: 1fr;
     }
 
     .facts-container{
         justify-items: center;
         gap: 24px;
+    }
+    .sponsor-img-container{
+         justify-items: center;
+        gap: 50px;
     }
 
     .feature-content{
@@ -253,6 +276,21 @@ main> section{
   .feature-content{
     margin: 50px auto;
   }
+
+  .facts-container,.sponsor-img-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+  }
+
+  .sponsor-img-container,.facts-container{
+    justify-items: center;
+  }
+
+  .section-heading{
+    text-align: center;
+    justify-items: center;
+  }
+
 
 
 
