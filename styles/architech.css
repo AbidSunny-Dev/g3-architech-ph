@@ -59,7 +59,14 @@ main> section{
 }
 
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
+.dark-three{
+    color: #727272;
+}
 
 
 
@@ -184,4 +191,24 @@ main> section{
     .feature-content{
         margin-left: 20px;
     }
+}
+
+@media  screen and (min-width:576px) and (max-width:992px){
+
+
+.teams{
+    flex-direction: column;
+}
+
+  .feature-content{
+    margin: 50px auto;
+  }
+
+
+
+
+
+
+
+
 }
