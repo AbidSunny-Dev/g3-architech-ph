@@ -50,6 +50,14 @@
 }
 
 
+main{
+ max-width: 1440px;
+ margin: 0 auto;
+}
+main> section{
+    margin-top: 130px;
+}
+
 
 
 
@@ -114,6 +122,49 @@
 }
 .banner-image{
     width: 100%;
+}
+
+/* main section style */
+
+.teams{
+    align-items: center;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.feature-content{
+    margin-left: 73px;
+    max-width: 537px;
+}
+
+.feature-description{
+    color: #727272;
+    line-height: 26px;
+}
+
+/* span design are here */
+
+#quick-list{
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: #727272;
+}
+
+#of-our{
+
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+
+}
+#features{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #FF900E;
 }
 
 
